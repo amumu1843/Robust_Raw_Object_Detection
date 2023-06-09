@@ -67,16 +67,16 @@ To be more specific:
 
 - Save detection results in txt format, and keep txt's name the same as raw's name. For instance, detection results for `day-00001.raw` should be in `day-00001.txt`.
 - Keep the txt file blank if no object is detected. That is, the number of `.txt` files in `submission.zip` is the same as `.raw` in valid split.
-- In each txt, one line corresponds to one object.
-- In each line, please follow this format: `class confidence bounding_box`, with one single space as interval.
-- Bounding box should be of `xyxy` format, with 1856 $\times$ 2880 coordinate (same as raw).
+- In each txt, one line corresponds to one detected object. If `n` objects are detected from a `.raw` file, then the corresponding `.txt` has `n` lines.
+- In each line, please follow this format: `class confidence bounding_box`, where `class` has capitalized first letter (same as annotations), and `confidence` is of type `float`. Use one single space as interval.
+- Bounding box should be of `xyxy` format, type `int`, and with 1856 $\times$ 2880 coordinate (same as raw).
 
 ---
 ## 4. Testing phase
-Testing dataset will not be released to participants, thus testing phase is a pure blind test. Participants should send a zip file to organizers, containing executable codes and well trained weights. Codes should be runnable with the following command, and save detection results (in `.txt` format, same as validation phase) in subfolder `./results`.
+Testing dataset will not be released to participants, thus testing phase is a pure blind test. Participants should send a zip file to organizers, containing executable codes and well trained weights. Codes should be runnable with the following command, and save detection results in subfolder `./results` (in `.txt` format, same as validation phase).
 
 ```bash
-    python main.py --path /path/to/testing/raws
+python main.py --path /path/to/testing/raws
 ```
 
 Inputs will be of `.raw` format, thus if any pre-processing is applied in training or validation phase, please also include it in your testing project.
@@ -90,7 +90,7 @@ Please send your submission to the following organizers:
 ---
 ## 5. License
 
-- Baseline code: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
+- Baseline code: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html), coming soon.
 - Dataset: ROD Dataset follows [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use is NOT ALLOWED.
 
 ---
