@@ -38,4 +38,4 @@ The final score will be the average of all four metrics.
 We recommend participants to have access to at least 4 GPUs for developing the models. It generally takes 3 days for training 300 epochs. The data will occupy around 250 GB of disk space. 
 
 ## Codes
-A baseline implementation is coming soon! For more information, please refer to [this github repo](https://github.com/amumu1843/Robust_Raw_Object_Detection).
+A baseline implementation is provided [here](https://github.com/huawei-noah/noah-research/tree/master/RAOD). For more information, please refer to [this github repo](https://github.com/amumu1843/Robust_Raw_Object_Detection).
