@@ -3,7 +3,7 @@
 
 ## 1. Overview 
 
-This repository provides some instructions for the [Robust RAW Object Detection](https://wvcl.vis.xyz/challenges) Challenge in [VCL Workshop @ ICCV 2023](https://wvcl.vis.xyz/). Here is the [challenge homepage](https://eval.ai/web/challenges/challenge-page/2083/overview) for submitting results and leader board. Our baseline code is available at [this repository](https://github.com/huawei-noah/noah-research/tree/master/RAOD).
+This repository provides some instructions for the [Robust RAW Object Detection](https://wvcl.vis.xyz/challenges) Challenge in [VCL Workshop @ ICCV 2023](https://wvcl.vis.xyz/). Here is the [challenge homepage](https://eval.ai/web/challenges/challenge-page/2083/overview) for submitting results and leader board. **Our baseline code is available at [this repository](https://github.com/huawei-noah/noah-research/tree/master/RAOD)**.
 
 ---
 ## 2. Training phase
