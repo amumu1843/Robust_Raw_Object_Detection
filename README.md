@@ -7,6 +7,8 @@ This repository provides some instructions for the [Robust RAW Object Detection]
 
 **Our baseline code now is available at [this repository](https://github.com/huawei-noah/noah-research/tree/master/RAOD)**.
 
+Our dataset is available at **Dropbox**, **Baidu Cloud Disk**, and **OPENI**. Please see [this file](./ROD_Dataset/ROD_Dataset.md) for downloading urls.
+
 ---
 ## 2. Training phase
 We provide training split of ROD Dataset at [this url](https://openi.pcl.ac.cn/innovation_contest/innov202305091731448/datasets). Raw images and annotations are zipped into two seperate zip files. Raw images are about 138 GB when zipped, and over 250 GB after unzipping. Please make sure you have enough disk space.
