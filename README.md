@@ -1,11 +1,12 @@
 # Robust RAW Object Detection
+**Our baseline code now is available at [this repository](https://github.com/huawei-noah/noah-research/tree/master/RAOD)**.
+
 ![](./figures/dataset.png)
 
 ## 1. Overview 
 
 This repository provides some instructions for the [Robust RAW Object Detection](https://wvcl.vis.xyz/challenges) Challenge in [VCL Workshop @ ICCV 2023](https://wvcl.vis.xyz/). Here is the [challenge homepage](https://eval.ai/web/challenges/challenge-page/2083/overview) for submitting results and leader board.
 
-**Our baseline code now is available at [this repository](https://github.com/huawei-noah/noah-research/tree/master/RAOD)**.
 
 Our dataset is available at **Dropbox**, **Baidu Cloud Disk**, and **OPENI**. Please see [this file](./ROD_Dataset/ROD_Dataset.md) for downloading urls.
 
