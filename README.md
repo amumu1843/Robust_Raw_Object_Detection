@@ -5,7 +5,7 @@
 
 ## 1. Overview 
 
-This repository provides some instructions for the [Robust RAW Object Detection](https://wvcl.vis.xyz/challenges) Challenge in [VCL Workshop @ ICCV 2023](https://wvcl.vis.xyz/). Here is the [challenge homepage](https://eval.ai/web/challenges/challenge-page/2083/overview) for submitting results and leader board.
+This repository provides some instructions for the [Robust RAW Object Detection](https://wvcl.vis.xyz/challenges) Challenge in [VCL Workshop @ ICCV 2023](https://wvcl.vis.xyz/). Here is the [challenge homepage](https://evalai.vis.xyz/web/challenges/challenge-page/8/overview) for submitting results and leader board.
 
 
 Our dataset is available at **Dropbox**, **Baidu Cloud Disk**, and **OPENI**. Please see [this file](./ROD_Dataset/ROD_Dataset.md) for downloading urls.
