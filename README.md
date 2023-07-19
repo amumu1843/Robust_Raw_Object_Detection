@@ -11,7 +11,7 @@ Our dataset is available at **Dropbox**, **Baidu Cloud Disk**, and **OPENI**. Pl
 
 ---
 ## 2. Training phase
-We provide training split of ROD Dataset at [this url](https://openi.pcl.ac.cn/innovation_contest/innov202305091731448/datasets). Raw images and annotations are zipped into two seperate zip files. Raw images are about 138 GB when zipped, and over 250 GB after unzipping. Please make sure you have enough disk space.
+We provide training split of ROD Dataset at [this url](./ROD_Dataset/ROD_Dataset.md). The dataset will take up over 250 GB after unzipping. Please make sure you have enough disk space.
 
 ### 2.1 Loading Raw data
 We provide sample codes for loading Raw images. It will return a ndarray of size 1856 $\times$ 2880 $\times$ 1, normalized to data range [0, 1].
@@ -51,7 +51,7 @@ def load_anno(name):
 
 ---
 ## 3. Validation phase
-We provide validation split of ROD Dataset at [this url](https://openi.pcl.ac.cn/innovation_contest/innov202305091731448/datasets). Participants should run detection results locally, and submit their results in `.zip` format on [challenge homepage](https://eval.ai/web/challenges/challenge-page/2083/overview). 
+We provide validation split of ROD Dataset at [this url](./ROD_Dataset/ROD_Dataset.md). Participants should run detection results locally, and submit their results in `.zip` format on [challenge homepage](https://evalai.vis.xyz/web/challenges/challenge-page/8/overview). 
 
 Please store your prediction in the following format:
 
