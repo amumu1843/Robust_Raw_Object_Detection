@@ -94,7 +94,7 @@ Please send your submission to the following organizers:
 ---
 ## 5. License
 
-- Baseline code: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html), coming soon.
+- Baseline code: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 - Dataset: ROD Dataset follows [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use is NOT ALLOWED.
 
 ---
