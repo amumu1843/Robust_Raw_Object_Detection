@@ -10,7 +10,6 @@ This repository provides some instructions for the [Robust RAW Object Detection]
 
 Our dataset is available at **Dropbox**, **Baidu Cloud Disk**, and **OPENI**. Please see [this file](./ROD_Dataset/ROD_Dataset.md) for downloading urls.
 
----
 ## 2. Training phase
 We provide training split of ROD Dataset at [this url](./ROD_Dataset/ROD_Dataset.md). The dataset will take up over 250 GB after unzipping. Please make sure you have enough disk space.
 
@@ -50,7 +49,6 @@ def load_anno(name):
 
 ```
 
----
 ## 3. Validation phase
 We provide validation split of ROD Dataset at [this url](./ROD_Dataset/ROD_Dataset.md). Participants should run detection results locally, and submit their results in `.zip` format on [challenge homepage](https://evalai.vis.xyz/web/challenges/challenge-page/8/overview). 
 
@@ -76,7 +74,6 @@ To be more specific:
 - In each line, please follow this format: `class confidence bounding_box`, where `class` has capitalized first letter (same as annotations), and `confidence` is of type `float`. Use one single space as interval.
 - Bounding box should be of `xyxy` format, type `int`, and with 1856 $\times$ 2880 coordinate (same as raw).
 
----
 ## 4. Testing phase
 Testing dataset will not be released to participants, thus testing phase is a pure blind test. Participants should send a zip file to organizers, containing executable codes and well trained weights. Codes should be runnable with the following command, and save detection results in subfolder `./results` (in `.txt` format, same as validation phase).
 
@@ -86,19 +83,24 @@ python main.py --path /path/to/testing/raws
 
 Inputs will be of `.raw` format, thus if any pre-processing is applied in training or validation phase, please also include it in your testing project.
 
-Our testing environment is a single 32G-memory GPU, with python 3.7.10 and CUDA 10.2. Please make sure the submitted codes are compatible with this environment.
+Our testing environment is a single 32G-memory GPU, with python 3.7.10 and CUDA 10.2. Please make sure the submitted codes are compatible with this environment. **Acceptable DL frameworks includes: PyTorch, TensorFlow and MindSpore.**
 
-Please send your submission to the following organizers:
+As a checklist, your submission for the final testing phase should include the following files:
+- Model weights (pth, ckpt, pb, etc.).
+- Inference codes, which will generate detection results in `./results` folder in `.txt` format (same as validation phase).
+- A visualization and a brief intruduction of your model structure. PDF format recommended.
+
+Please send your submission to **all** of the following organizers:
 - pengjingyang1 AT huawei DOT com
 - xurk AT mail DOT ustc DOT edu DOT cn
 
----
+Notice that if your submission file is too large to be attached to an email, please send the downloading link of your submission to organizers. Google Drive / Dropbox / Baidu Cloud Disk is recommand. **Make sure that the last modified time if before Sept. 1st, 2023.**
+
 ## 5. License
 
 - Baseline code: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 - Dataset: ROD Dataset follows [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use is NOT ALLOWED.
 
----
 ## 6. Contact
 Please contact Jingyang Peng for more details.  
 Email: pengjingyang1 AT huawei DOT com
