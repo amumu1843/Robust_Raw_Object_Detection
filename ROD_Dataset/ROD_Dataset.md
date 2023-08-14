@@ -1,4 +1,4 @@
-# Download
+# Data Downloading
 Our ROD dataset is available at three platforms.
 
 ## Dropbox
@@ -27,3 +27,12 @@ Because there is a 20GB downloading limit for some users, dataset is separated i
 
 ## OpenI
 Training annotations, training raws and validation raws can all be found in [this url](https://openi.pcl.ac.cn/innovation_contest/innov202305091731448/datasets).
+
+# Data Introduction
+The dataset contains over 25k `raw_image + annotation` pairs from both day and night scenes, and we take approximately 16k as training set, 4k as validation set, and 5k as testing set, respectively. Five classes are annotated in the dataset, including Pedestrian, Cyclist, Car, Truck and Tram. The number of objects from each class is listed in the table below.
+
+| | Pedestrian | Cyclist | Car | Truck | Tram | 
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Training set   | 23809 | 11658 | 115069 | 7766 | 6464 |
+| Validation set | 2521  | 1622  | 24824  | 2874 | 1209 |
+| Testing set    | 3752  | 3569  | 24246  | 3476 | 1249 |
