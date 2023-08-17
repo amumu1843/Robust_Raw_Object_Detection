@@ -94,7 +94,7 @@ Please send your submission to **all** of the following organizers:
 - pengjingyang1 AT huawei DOT com
 - xurk AT mail DOT ustc DOT edu DOT cn
 
-Notice that if your submission file is too large to be attached to an email, please send the downloading link of your submission to organizers. Google Drive / Dropbox / Baidu Cloud Disk is recommand. **Make sure that the last modified time if before Sept. 1st, 2023.**
+Notice that if your submission file is too large to be attached to an email, please send the downloading link of your submission to organizers. Google Drive / Dropbox / Baidu Cloud Disk is recommand. **Make sure that the last modified time is before Sept. 1st, 2023.**
 
 ## 5. License
 
