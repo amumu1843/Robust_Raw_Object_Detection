@@ -1,7 +1,11 @@
 # Robust RAW Object Detection
-**Our baseline code now is available at [this repository](https://github.com/huawei-noah/noah-research/tree/master/RAOD)**.
 
 ![](./figures/dataset.png)
+
+## 0. Attention board
+- As far as we know, leaderboard status cannot be changed once the challenge is launched. We cannot set leaderboard to public even as challenge hosts. Instead, **we will keep screenshots of leaderboard once a week [at this url](./figures/leaderboard/leaderboard.md)**.
+- **Our baseline code now is available at [this repository](https://github.com/huawei-noah/noah-research/tree/master/RAOD)**.
+
 
 ## 1. Overview 
 
