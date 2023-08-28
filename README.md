@@ -79,22 +79,23 @@ To be more specific:
 - Bounding box should be of `xyxy` format, type `int`, and with 1856 $\times$ 2880 coordinate (same as raw).
 
 ## 4. Testing phase
-Testing dataset will not be released to participants, thus testing phase is a pure blind test. Participants should send a zip file to organizers, containing executable codes and well trained weights. Codes should be runnable with the following command, and save detection results in subfolder `./results` (in `.txt` format, same as validation phase).
+Testing dataset will not be released to participants, thus testing phase is a pure blind test. Participants should send a zip file to organizers, containing executable codes and well trained model weights. Codes should be runnable with the following command, and save detection results in subfolder `./results` (in `.txt` format, same as validation phase). We provide an example [here](./codes/example_start_eval.sh). (Optional: If any self-written libraries is used, please also including its compilation in the `start_eval.sh` script.)
 
 ```bash
-python main.py --path /path/to/testing/raws
+bash start_eval.sh /home/datasets/ROD_Test/raws
 ```
 
 Inputs will be of `.raw` format, thus if any pre-processing is applied in training or validation phase, please also include it in your testing project.
 
 Our testing environment is a single 32G-memory GPU, with python 3.7.10 and CUDA 10.2. Please make sure the submitted codes are compatible with this environment. **Acceptable DL frameworks includes: PyTorch, TensorFlow and MindSpore.**
 
-As a checklist, your submission for the final testing phase should include the following files:
-- Model weights (pth, ckpt, pb, etc.).
-- Inference codes, which will generate detection results in `./results` folder in `.txt` format (same as validation phase).
-- A visualization and a brief intruduction of your model structure. PDF format recommended.
+As a checklist, your submission for the final testing phase should a zipfile, with the following files:
+- `start_eval.sh` script;
+- Model weights (pth, ckpt, pb, etc.);
+- Inference codes, which will generate detection results in `./results` folder in `.txt` format (same as validation phase);
+- A visualization and a brief introduction of your model structure. PDF format recommended.
 
-Please send your submission to **all** of the following organizers:
+Please send your submission to **all of the following organizers**:
 - pengjingyang1 AT huawei DOT com
 - xurk AT mail DOT ustc DOT edu DOT cn
 
