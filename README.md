@@ -82,7 +82,7 @@ To be more specific:
 Testing dataset will not be released to participants, thus testing phase is a pure blind test. Participants should send a zip file to organizers, containing executable codes and well trained model weights. Codes should be runnable with the following command, and save detection results in subfolder `./results` (in `.txt` format, same as validation phase). We provide an example [here](./codes/example_start_eval.sh). (Optional: If any self-written libraries is used, please also including its compilation in the `start_eval.sh` script.)
 
 ```bash
-bash start_eval.sh /home/datasets/ROD_Test/raws
+bash start_eval.sh /path/to/test/raws
 ```
 
 Inputs will be of `.raw` format, thus if any pre-processing is applied in training or validation phase, please also include it in your testing project.
