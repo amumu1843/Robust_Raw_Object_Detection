@@ -89,7 +89,7 @@ Inputs will be of `.raw` format, thus if any pre-processing is applied in traini
 
 Our testing environment is a single 32G-memory GPU, with python 3.7.10 and CUDA 10.2. Please make sure the submitted codes are compatible with this environment. **Acceptable DL frameworks includes: PyTorch, TensorFlow and MindSpore.**
 
-As a checklist, your submission for the final testing phase should a zipfile, with the following files:
+As a checklist, your submission for the final testing phase should be a zipfile, with the following files:
 - `start_eval.sh` script;
 - Model weights (pth, ckpt, pb, etc.);
 - Inference codes, which will generate detection results in `./results` folder in `.txt` format (same as validation phase);
